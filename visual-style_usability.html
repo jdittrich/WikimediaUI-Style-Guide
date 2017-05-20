@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if lte IE 8 ]><html lang="en" class="js-off lte-ie8"><![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="js-off ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en" class="js-off">
+<!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/wmui-style-guide.min.css">
+	<title>Visual Style: Icons – WikimediaUI Style Guide</title>
+	<script>
+		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
+	</script>
+	<!--[if lt IE 9]>
+	<script>window.html5={'shivCSS':false};</script>
+	<script src="js/vendor/ie/html5shiv-3.7.3.min.js"></script>
+	<script src="js/vendor/ie/respond-1.4.2.min.js"></script>
+	<![endif]-->
+    <link rel="preload" href="fonts/Charter_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Lato_regular.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="js/fonts-loader.js" async></script>
+</head>
+<body>
+	<header id="header" class="header" role="banner">
+		<div class="content-box">
+			<a href="#content" class="is-aural is-focusable">Jump to content</a>
+			<a href="#nav--main" class="is-aural is-focusable">Jump to navigation</a>
+			<h1 class="site__title"><a href="./"><span class="site__logo"></span>Wikimedia Style Guide</a></h1>
+			<label class="btn--nav-main" for="trigger--nav-main" aria-hidden="true" title="Show main menu">
+				<i></i> <span>Menu</span>
+			</label>
+			<a href="https://github.com/wikimedia/WikimediaUI-Style-Guide" class="lnk--contribute" title="Fork and contribute on GitHub"><span>Contribute on </span>GitHub</a>
+		</div>
+	</header>
+	<div class="page">
+		<div class="content-box">
+			<div class="col col--start">
+				<input type="checkbox" id="trigger--nav-main" class="trigger--nav-main">
+				<nav id="nav--main" class="nav nav--main" role="navigation">
+					<ol>
+						<li class="nav__item"><a href="index.html">Introduction</a></li>
+						<li class="nav__item"><a href="design-principles.html">Design principles</a></li>
+						<li class="nav__item is-on"><a href="visual-style.html">Visual style</a>
+							<ul class="nav__sub-items">
+								<li class="nav__sub-item"><a href="visual-style.html">Principles</a></li>
+								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
+								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item is-on"><a href="visual-style_usability.html">Icons</a></li>
+								<li class="nav__sub-item"><a href="visual-style_imagery.html">Imagery</a></li>
+								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
+							</ul>
+						</li>
+						<!-- <li><a href="components.html">Components</a></li>
+						<li><a href="patterns.html">Patterns</a></li>
+						<li><a href="resources.html">Resources</a></li> -->
+					</ol>
+				</nav>
+			</div>
+			<div class="col col--end">
+				<main id="content" class="content" role="main">
+					<h1 class="page__title">Visual Style</h1>
+
+					<section id="usability">
+						<h2>Usability</h2>
+						<!-- what is usability -->
+
+						<h3>Adhere to standards and be consistent</h3>
+							<!-- knowing what to do, do not make me think -->
+							<p>
+								Adhering to standards for interface elements and interactions helps users to be able to intuitively use your interface.
+								This is because they can build upon existing knowledge.
+								<!-- a link is blue and underlines… -->
+							</p>
+							<p>
+								Even experienced and tech savvy users benefit from standards: They, too, learn and adopt it better and they feel more save
+								when doing critical actions. <!-- insert wikiexample here -->
+							</p>
+
+							<!-- Standards in OOUI -->
+							<!-- Inventing and adding your own things? -->
+
+						<h3>Show what you can do and how</h3>
+							<p>
+								If you signify possible interactions you don't leave people wondering how they can get to their goal. A button, for example,
+								is a signifier which shows that an area is clickable or tapable and that some acti	on will be executed after clicking it.
+							</p>
+
+							<p>
+								To leave out such signifiers may be tempting due to saving space, adding functions without changing the UI or keeping it visually clean.
+								However, it means that you leave your users guessing what the UI does.
+							</p>
+
+						<h3>Feedback on what the stuff does </h3>
+						<p>
+							If nothing happens after a click, users will wonder if their actions actually were noted. <!-- WORDING-->
+						</p>
+						<p>
+
+						</p>
+						<!-- System status -->
+
+						<h2></h2>
+
+						<h2>Do user tests</h2>
+						<!-- basic checks please -->
+						<!-- expert users, any user? -->
+						<!-- literature -->
+					</section>
+				</main>
+			</div>
+		</div>
+	</div>
+	<footer id="footer" class="footer">
+		<div class="content-box">
+			<ul class="footer__list">
+				<li><a href="https://github.com/wikimedia/WikimediaUI-Style-Guide">Contribute on GitHub</a></li>
+				<li><a href="https://twitter.com/@WikimediaUX" title="Follow Wikimedia User Experience team account on Twitter">Follow @WikimediaUX</a></li>
+				<li><a href="https://lists.wikimedia.org/mailman/listinfo/design" title="Join Wikimedia Design mailing list">Join mailing list</a></li>
+			</ul>
+			<p>Text is available under the <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International</a>, additional terms may apply. <br>Code is available under the MIT license.</p>
+			<p><a href="https://wikimediafoundation.org/" class="lnk--wikimedia-project">A Wikimedia Foundation project</a></p>
+		</div>
+	</footer>
+</body>
+</html>
