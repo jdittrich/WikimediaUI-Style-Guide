@@ -46,6 +46,7 @@
 								<li class="nav__sub-item"><a href="visual-style.html">Principles</a></li>
 								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
 								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
+								<li class="nav__sub-item"><a href="visual-style_icons.html">Icons</a></li>
 								<li class="nav__sub-item is-on"><a href="visual-style_usability.html">Icons</a></li>
 								<li class="nav__sub-item"><a href="visual-style_imagery.html">Imagery</a></li>
 								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
@@ -68,41 +69,80 @@
 						<h3>Adhere to standards and be consistent</h3>
 							<!-- knowing what to do, do not make me think -->
 							<p>
-								Adhering to standards for interface elements and interactions helps users to be able to intuitively use your interface.
+								Adhering to standards for interface elements and interactions helps our users to be able to intuitively use your interface.
 								This is because they can build upon existing knowledge.
 								<!-- a link is blue and underlines… -->
 							</p>
 							<p>
-								Even experienced and tech savvy users benefit from standards: They, too, learn and adopt it better and they feel more save
+								Even experienced and tech-savvy users benefit from standards: They, too, learn and adopt it better and they feel more save
 								when doing critical actions. <!-- insert wikiexample here -->
 							</p>
-
+							<!-- example of
 							<!-- Standards in OOUI -->
+							<!-- Icons -->
 							<!-- Inventing and adding your own things? -->
 
-						<h3>Show what you can do and how</h3>
+						<h3>Show what you can do and how</h3><!-- MAYBE: What does it do? How can I use it? -->
 							<p>
-								If you signify possible interactions you don't leave people wondering how they can get to their goal. A button, for example,
-								is a signifier which shows that an area is clickable or tapable and that some acti	on will be executed after clicking it.
+								Show the users what they can do and what they can archive by that. Don't leave users wondering what a function does and how it can be activated.
+								<!-- Maybe some graphic??? Like action (What can I do) -- goal (to get this)?  -->
 							</p>
 
+							<p>
+								Using standard elements is essential in communicating how an element can be used:
+							</p>
+							<p>
+								EXAMPLE: Buttons, Links afford clicks; sliders afford clicks on slider OR dragging. "CRTL+A" in a menu entry affords pressing the keys.
+							</p>
 							<p>
 								To leave out such signifiers may be tempting due to saving space, adding functions without changing the UI or keeping it visually clean.
 								However, it means that you leave your users guessing what the UI does.
 							</p>
+							<p>
+								Use plain, easy to get lables or icons to show what the use of an element does.
+							</p>
+							<p>
+								…Example… OK vs. Publish now.
+							</p>
+							<p>
+								Also with element actions, there are some standards. EXAMPLE: Link leads to new page. ... button opens a new dialog.
+							</p>
 
-						<h3>Feedback on what the stuff does </h3>
+						<h3>Prevent Errors and alliviate them</h3>
 						<p>
-							If nothing happens after a click, users will wonder if their actions actually were noted. <!-- WORDING-->
+							In many cases you can prevent problems occuring in the first place.
 						</p>
 						<p>
-
+							If an action does not make sense, you can deactive these functions. Most components like buttons provide a deactivated state
+							which can be used to show that useing this does not make sense at the moment.
 						</p>
-						<!-- System status -->
+ 							<!-- example from Visual Editor -->
+						<p>
+							Make sure that the user can understand <em>why</em> the button is disabled. This is usually doe by being close to the offending input.
+							If it is not, you can consider adding a tooltip or even a help text.
+							<!-- needs example -->
+						</p>
+						<p>
+							If a user input is needed it can also help to provide a meaningful default or meaningful suggestions for input.
+							<!-- example with a list of suggestions -->
+						</p>
+						<a href="https://www.nngroup.com/articles/slips/">»Preventing User Errors« on nngroup.com</a>
 
-						<h2></h2>
+						<h3>Care for keyboard usage</h3>
+						<p>
+							Make the functionality accessible via keyboard, so the interface is usable without a mouse. This benefits two user groups:
+							<ul>
+								<li>
+									Users with motor or visual disabilities who can't use a mouse
+								</li>
+								<li>
+									Users who prefer keyboard use, since it is faster
+								</li>
+							</ul>
 
-						<h2>Do user tests</h2>
+							TODO: Keyboard use for OOUI
+							TODO: Tab mode for everything, Direct keys for most important functions.
+						</p>
 						<!-- basic checks please -->
 						<!-- expert users, any user? -->
 						<!-- literature -->
