@@ -8,7 +8,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<link rel="stylesheet" href="css/wmui-style-guide.min.css">
-	<title>Visual Style: Icons – WikimediaUI Style Guide</title>
+	<title>Visual Style: Usability – WikimediaUI Style Guide</title>
 	<script>
 		document.documentElement.className = document.documentElement.className.replace(/\bjs-off\b/,'js-on'); // no BEM notation thx to IE
 	</script>
@@ -47,7 +47,7 @@
 								<li class="nav__sub-item"><a href="visual-style_colors.html">Colors</a></li>
 								<li class="nav__sub-item"><a href="visual-style_typography.html">Typography</a></li>
 								<li class="nav__sub-item"><a href="visual-style_icons.html">Icons</a></li>
-								<li class="nav__sub-item is-on"><a href="visual-style_usability.html">Icons</a></li>
+								<li class="nav__sub-item is-on"><a href="visual-style_usability.html">Usablity</a></li>
 								<li class="nav__sub-item"><a href="visual-style_imagery.html">Imagery</a></li>
 								<li class="nav__sub-item"><a href="visual-style_illustrations.html">Illustrations</a></li>
 							</ul>
@@ -77,32 +77,35 @@
 								Even experienced and tech-savvy users benefit from standards: They, too, learn and adopt it better and they feel more save
 								when doing critical actions. <!-- insert wikiexample here -->
 							</p>
-							<!-- example of
-							<!-- Standards in OOUI -->
-							<!-- Icons -->
-							<!-- Inventing and adding your own things? -->
+							<!-- TODO: example of
+										Standards in OOUI
+										Standard Icons -->
 
-						<h3>Show what you can do and how</h3><!-- MAYBE: What does it do? How can I use it? -->
+							<!-- POSSIBLY: Section on Inventing and adding your own things? -->
+
+						<h3>Show how one can interact with an widget</h3><!-- MAYBE: What does it do? How can I use it? -->
 							<p>
 								Show the users what they can do and what they can archive by that. Don't leave users wondering what a function does and how it can be activated.
-								<!-- Maybe some graphic??? Like action (What can I do) -- goal (to get this)?  -->
+								<!-- POSSIBLY: Maybe some graphic??? Like action (What can I do) -- goal (to get this)?  -->
 							</p>
 
 							<p>
 								Using standard elements is essential in communicating how an element can be used:
 							</p>
 							<p>
-								EXAMPLE: Buttons, Links afford clicks; sliders afford clicks on slider OR dragging. "CRTL+A" in a menu entry affords pressing the keys.
+								<span style="color:darkred; font-weight: bold;"> EXAMPLE: Buttons, Links afford clicks; sliders afford clicks on slider OR dragging. "CRTL+A" in a menu entry affords pressing the keys.</span>
 							</p>
 							<p>
 								To leave out such signifiers may be tempting due to saving space, adding functions without changing the UI or keeping it visually clean.
 								However, it means that you leave your users guessing what the UI does.
 							</p>
+
 							<p>
 								Use plain, easy to get lables or icons to show what the use of an element does.
 							</p>
 							<p>
-								…Example… OK vs. Publish now.
+								<!-- TODO: -->
+								<span style="color:darkred; font-weight: bold;">…Example… OK -- Save -- Publish now.</span>
 							</p>
 							<p>
 								Also with element actions, there are some standards. EXAMPLE: Link leads to new page. ... button opens a new dialog.
@@ -110,22 +113,24 @@
 
 						<h3>Prevent Errors and alliviate them</h3>
 						<p>
-							In many cases you can prevent problems occuring in the first place.
+							In many cases you can prevent problems occuring in the first place. If a user could make invalid input, try to provide suggestions
+							so the user can choose from a list of valid choices.
 						</p>
 						<p>
-							If an action does not make sense, you can deactive these functions. Most components like buttons provide a deactivated state
-							which can be used to show that useing this does not make sense at the moment.
+							If it does not make sense to execute an action, you can deactive these functions. Most components like buttons provide a deactivated state
+							which can be used to show that using this does not make sense at the moment.
 						</p>
- 							<!-- example from Visual Editor -->
+ 							<span style="color:darkred; font-weight: bold;"> example from Visual Editor: If you did not change text, your publish button is gray</span>
 						<p>
-							Make sure that the user can understand <em>why</em> the button is disabled. This is usually doe by being close to the offending input.
+							Make sure that the user can understand <em>why</em> the button is disabled. This is usually done by being close to the offending input.
 							If it is not, you can consider adding a tooltip or even a help text.
 							<!-- needs example -->
 						</p>
 						<p>
-							If a user input is needed it can also help to provide a meaningful default or meaningful suggestions for input.
-							<!-- example with a list of suggestions -->
+							If an error occurs, inform the user in a way that allows the user to understand and fix the error. Avoid jargon and technical infos and focus on what the user can do now.
 						</p>
+						<span style="color:darkred; font-weight: bold;">TODO: Example Wikidata constraint violations</span>
+
 						<a href="https://www.nngroup.com/articles/slips/">»Preventing User Errors« on nngroup.com</a>
 
 						<h3>Care for keyboard usage</h3>
@@ -139,9 +144,8 @@
 									Users who prefer keyboard use, since it is faster
 								</li>
 							</ul>
-
-							TODO: Keyboard use for OOUI
-							TODO: Tab mode for everything, Direct keys for most important functions.
+							<span style="color:darkred; font-weight: bold;">TODO: Keyboard use for OOUI</span>
+							<span style="color:darkred; font-weight: bold;">TODO: Tab mode for everything, Direct keys for most important functions.</span>
 						</p>
 						<!-- basic checks please -->
 						<!-- expert users, any user? -->
